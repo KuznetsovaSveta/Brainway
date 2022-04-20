@@ -1,0 +1,117 @@
+.FAQ {
+    padding: 100px 0 120px 0;
+    background-image: url("../../img/FAQ/FAQ__bg.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper-FAQ {
+    max-width: 770px;
+    margin: 0 auto;
+}
+
+.FAQ__title {
+    margin-bottom: 25px;
+}
+
+.title {
+}
+
+.gradient {
+}
+
+.FAQ__descr {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    max-width: 510px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+.hide,
+.hide + label ~ div {
+    display: none;
+}
+
+.FAQ__block{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    margin: 0;
+    background-color: #fff!important;
+}
+
+.question{
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    padding: 38px 83px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    display: block;
+    position: relative;
+}
+
+.answer{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.question:before {
+    content: url("../../img/FAQ/arrow-right.svg");
+    display: block;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 40px;
+    /*top: 35px;*/
+    height: 27px;
+    width: 14px;
+}
+
+/*вид текста label при активном переключателе */
+.hide:checked + label {
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+    border-bottom: 20px;
+}
+
+/* когда чекбокс активен показываем блоки с содержанием  */
+.hide:checked + label + div {
+    display: block;
+    padding: 20px 73px 38px 83px;
+    /*анимация при появлении */
+    -webkit-animation:fade ease-in 0.5s;
+    -moz-animation:fade ease-in 0.5s;
+    animation:fade ease-in 0.5s;
+}
+/* анимация при появлении скрытых блоков */
+@-moz-keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
+@-webkit-keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
+@keyframes fade {
+    from { opacity: 0; }
+    to { opacity: 1 }
+}
+
+.hide:checked + label:before {
+    content: url("../../img/FAQ/arrow-down.svg");
+    left: 37px;
+    /*top: 42px;*/
+}
+

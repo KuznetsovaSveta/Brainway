@@ -1,0 +1,189 @@
+.process {
+    padding: 188px 0 220px 0;
+    background: #F8F8F8;
+}
+
+.wrapper {
+}
+
+.process__title {
+    margin-bottom: 90px;
+}
+
+.title {
+}
+
+.gradient {
+}
+
+.wrapper-process {
+}
+
+.process__item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 120px;
+    position: relative;
+}
+
+.process__item-discovery{
+    padding-right: 36px;
+}
+
+.process__item-testing{
+    padding-right: 36px;
+}
+
+.process__img {
+}
+
+.process__item-text {
+    max-width: 685px;
+    text-align: right;
+}
+
+.process__item-center .process__item-text{
+    text-align: left;
+}
+
+.process__item-title-wrap{
+    padding: 12px 66px 45px 33px;
+    background: linear-gradient(90deg, rgba(106, 17, 203, 0.3) 0%, rgba(37, 117, 252, 0.3) 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    margin-bottom: -40px;
+}
+
+.process__item-center .process__item-title-wrap{
+    background: #FFFFFF;
+}
+
+.process__item-title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    /*margin-bottom: -40px;*/
+    color: #FFFFFF;
+}
+
+.process__item-title-wrap:after{
+    content: "";
+    background-image: url("../../img/process/product_discovery-logo.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 20px;
+    right: 30px;
+}
+
+.process__item-design .process__item-title-wrap:after{
+    background-image: url("../../img/process/product_design-logo.svg");
+}
+
+.process__item-MVP .process__item-title-wrap:after{
+    background-image: url("../../img/process/MVP-logo.svg");
+}
+
+.process__item-confidance .process__item-title-wrap:after{
+    background-image: url("../../img/process/constant_confidence-logo.svg");
+}
+
+.process__item-testing .process__item-title-wrap:after{
+    background-image: url("../../img/process/testing-logo.svg");
+}
+
+.process__item-maintance .process__item-title-wrap:after{
+    background-image: url("../../img/process/maintenance-logo.svg");
+}
+
+.process__item-assistance .process__item-title-wrap:after{
+    background-image: url("../../img/process/assistance-logo.svg");
+}
+
+.right {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    text-align: right;
+}
+
+.process__item-design{
+    z-index: 20;
+}
+
+.process__item-design:after{
+    content: "";
+    position: absolute;
+    background-image: url("../../img/process/product_design.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 130px;
+    top: 55px;
+    width: 178px;
+    height: 167px;
+    z-index: -1;
+}
+
+.process__item-confidance:after{
+    content: "";
+    position: absolute;
+    background-image: url("../../img/process/constant_confidence.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 230px;
+    top: -27px;
+    width: 85px;
+    height: 103px;
+    z-index: 0;
+}
+
+.process__item-maintance:after{
+    content: "";
+    position: absolute;
+    background-image: url("../../img/process/maintenance.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 180px;
+    top: -27px;
+    width: 152px;
+    height: 149px;
+    z-index: 0;
+}
+
+.process__item-descr {
+    padding: 22px 33px;
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    position: relative;
+    z-index: 10;
+    text-align: left;
+}
+
+.process__item-center .process__item-text{
+    display: block;
+    margin: 0 auto;
+}
+
+.process__item-center .process__item-descr{
+    padding: 49px 32px;
+}
+
+.process__item-MVP .process__item-descr{
+    padding: 76px 32px;
+}
+

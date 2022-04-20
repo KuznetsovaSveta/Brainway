@@ -1,0 +1,33 @@
+.functional {
+    background: #F8F8F8;
+
+}
+
+.wrapper-functional {
+    padding: 55px 100px 85px 100px;
+}
+
+.functional__title {
+    letter-spacing: 0.03em;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.functional__video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* задаёт высоту контейнера для 16:9 (если 4:3 — поставьте 75%) */
+    height: 0;
+    overflow: hidden;
+}
+
+.functional__video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+    outline-width: 0;
+    border-radius: 20px;
+}

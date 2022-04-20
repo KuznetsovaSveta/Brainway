@@ -1,0 +1,37 @@
+.how {
+    padding: 60px 0 72px 0;
+}
+
+.wrapper {
+}
+
+.how__title {
+    margin-bottom: 60px;
+}
+
+.wrapper-how {
+    display: flex;
+    justify-content: space-between;
+}
+
+.how__text {
+    padding-top: 57px;
+    max-width: 450px;
+}
+
+.how__subtitle {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    margin-bottom: 20px;
+}
+
+.how__descr {
+    font-size: 17px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+}
+
+.how__right {
+}

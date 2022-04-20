@@ -1,0 +1,172 @@
+.contact {
+    background: #F8F8F8;
+    padding: 119px 0;
+}
+
+.wrapper-contact {
+    display: flex;
+    justify-content: space-between;
+    gap: 130px;
+}
+
+.contact__left {
+}
+
+.contact__left-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contact__form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    display: inline-block;
+}
+
+.contact__form-item{
+    height: 55px;
+    padding: 0 30px;
+    border: none;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 5px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 107.9%;
+    letter-spacing: 0.03em;
+    color: rgba(0, 0, 0, 0.5);
+    outline: none;
+    display: inline-block;
+    width: 100%;
+}
+
+.contact__form-item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.contact__form-textarea{
+    height: 138px;
+    padding-top: 25px;
+}
+
+.contact__form-label {
+    font-size: 15px;
+    line-height: 107.9%;
+    letter-spacing: 0.03em;
+    color: #261911;
+    margin-bottom: 21px;
+}
+
+.privacy__link {
+    text-decoration: underline;
+}
+
+.contact__form-btn {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    background-color: #000;
+    display: block;
+    text-align: center;
+    padding: 12px;
+}
+
+.contact__form-btn:hover{
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+}
+
+.contact__right {
+}
+
+.contact__right-title {
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+.contact__right-offices {
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+    font-family: 'Spartan', sans-serif;
+    margin-bottom: 30px;
+}
+
+.contact__right-office{
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 270px;
+}
+
+.contact__right-country {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 140%;
+    margin-bottom: 40px;
+    display: block;
+    position: relative;
+}
+
+.contact__right-country:before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/contact/map_icon.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: 39px;
+    top: 3px;
+}
+
+.contact__right-russia:before{
+    left: 34px;
+}
+
+.contact__right-address {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+.contact__right-tel {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    display: block;
+    position: relative;
+}
+
+/*TODO:выровнять иконки*/
+.contact__right-tel:before{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/contact/phone_icon.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    left: -11px;
+}
+
+.contact__right-map {
+    width: 570px;
+    height: 264px;
+}
+
+.office-active{
+    background: linear-gradient(90deg, rgba(106, 17, 203, 0.2) 0%, rgba(37, 117, 252, 0.2) 100%);
+}
+
+
+

@@ -1,0 +1,46 @@
+.join {
+    padding-top: 100px;
+    margin-bottom: -2px;
+}
+
+.wrapper {
+}
+
+.wrapper-join {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.join__left {
+    /*margin-top: -138px;*/
+}
+
+.join__title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    margin-bottom: 24px;
+}
+
+.join__descr {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    max-width: 418px;
+    margin-bottom: 14px;
+}
+
+.join__email {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+}
+
+.join__right {
+    padding-right: 55px;
+    /*z-index: 4;*/
+}

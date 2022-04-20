@@ -1,0 +1,58 @@
+.hi {
+    padding: 50px 0;
+}
+
+.wrapper-hi {
+
+}
+
+.hi__title {
+    margin-bottom: 20px;
+}
+
+.title {
+}
+
+.gradient {
+}
+
+.hi__text {
+    font-size: 17px;
+    line-height: 160%;
+    text-align: center;
+    letter-spacing: 0.03em;
+    max-width: 630px;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+
+.team {
+    display: grid;
+    grid-template-columns:repeat(6, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+}
+
+.member {
+    text-align: center;
+}
+
+.member__photo {
+    filter: drop-shadow(0px 5px 15px rgba(0, 0, 0, 0.4));
+    border-radius: 10px;
+    margin-bottom: 17px;
+}
+
+.member__name {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+}
+
+.member__position {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+}

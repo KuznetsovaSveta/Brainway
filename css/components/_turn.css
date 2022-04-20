@@ -1,0 +1,46 @@
+.turn {
+    padding: 84px 0 96px 0;
+}
+
+.wrapper-turn{
+    display: flex;
+    justify-content: space-between;
+}
+
+.turn__left {
+}
+
+.turn__title {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 140%;
+    max-width: 610px;
+    margin-bottom: 30px;
+}
+
+.gradient {
+    background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.turn__text {
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    max-width: 446px;
+    margin-bottom: 61px;
+}
+
+.turn__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0.03em;
+    margin-bottom: 7px;
+}
+
+/*TODO:выровнять эту картинку*/
+.turn__img{
+    max-width: 560px;
+}

@@ -1,0 +1,37 @@
+@import "_normalize.css";
+@import "_fonts.css";
+/*@import "_variables.css";
+@import "_vendor.css";*/
+@import "_global.css";
+/*@import "_overall.css";*/
+
+
+
+/*для index.html*/
+@import "./components/_header.css";
+@import "./components/_turn.css";
+@import "./components/_functional.css";
+@import "./components/_solution.css";
+@import "./components/_goal.css";
+@import "./components/_contact.css";
+@import "./components/_customers.css";
+@import "./components/_companies.css";
+@import "./components/_footer.css";
+
+/*для company.html*/
+@import "./components/_about.css";
+@import "./components/_hi.css";
+@import "./components/_join.css";
+
+/*для why_us.html*/
+@import "./components/_FAQ.css";
+@import "./components/_why.css";
+
+/*для process_page.html*/
+@import "./components/_how-do-we-work.css";
+@import "./components/_process.css";
+
+/*для popup_form.html*/
+@import "./components/_consultation.css";
+
+@import "_media.css";

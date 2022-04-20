@@ -1,0 +1,124 @@
+.footer {
+    background-color: #000;
+    font-family: 'Spartan', sans-serif;
+    color: #FFFFFF;
+    padding: 50px 0;
+    /*z-index: 100;*/
+}
+
+.wrapper {
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__left {
+}
+
+.footer__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    max-width: 380px;
+    margin-bottom: 40px;
+}
+
+.footer__text {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+    background: linear-gradient(90deg, #4BA8FE 0.01%, #2575FC 47.4%, #0354DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /*background-clip: text;*/
+    /*text-fill-color: transparent;*/
+    max-width: 500px;
+    margin-bottom: 40px;
+}
+
+.footer__social {
+    display: flex;
+    align-items: center;
+}
+
+.footer__social-item:not(:last-child){
+    margin-right: 30px;
+}
+
+.footer__social-item {
+}
+
+.footer__social-link {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.footer__social-linked {
+}
+
+.footer__social-fb {
+}
+
+.footer__right {
+    text-align: right;
+}
+
+.footer__logo {
+    margin-bottom: 20px;
+}
+
+.footer__nav {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 19px;
+}
+
+.footer__list {
+    margin-bottom: 30px;
+}
+
+.footer__item {
+}
+
+.footer__item:not(:last-child){
+    margin-bottom: 20px;
+}
+
+.footer__link {
+    background-color: #000;
+    transition: background-color 0.3s ease-in;
+}
+
+.footer__link:hover{
+    background: linear-gradient(90deg, #4BA8FE 0.01%, #2575FC 47.4%, #0354DC 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.footer__copy {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+}
+
+.footer__copy-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+.footer__social-mobile{
+    display: none;
+}
+
+.footer__copy-mobile{
+    display: none;
+}
+
+
+
