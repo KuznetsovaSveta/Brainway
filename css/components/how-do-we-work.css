@@ -2,9 +2,6 @@
     padding: 60px 0 72px 0;
 }
 
-.wrapper {
-}
-
 .how__title {
     margin-bottom: 60px;
 }
@@ -31,7 +28,4 @@
     font-size: 17px;
     line-height: 160%;
     letter-spacing: 0.03em;
-}
-
-.how__right {
 }

@@ -1,22 +1,11 @@
 .process {
-    padding: 188px 0 220px 0;
+    padding: 188px 0 260px 0;
     background: #F8F8F8;
-}
-
-.wrapper {
+    position: relative;
 }
 
 .process__title {
     margin-bottom: 90px;
-}
-
-.title {
-}
-
-.gradient {
-}
-
-.wrapper-process {
 }
 
 .process__item {
@@ -26,16 +15,12 @@
     margin-bottom: 120px;
     position: relative;
 }
-
-.process__item-discovery{
-    padding-right: 36px;
+.process__item:last-child,
+.process__item-assistance{
+    margin-bottom: 0!important;
 }
-
 .process__item-testing{
     padding-right: 36px;
-}
-
-.process__img {
 }
 
 .process__item-text {

@@ -9,16 +9,11 @@
 .wrapper-FAQ {
     max-width: 770px;
     margin: 0 auto;
+    position: relative;
 }
 
 .FAQ__title {
     margin-bottom: 25px;
-}
-
-.title {
-}
-
-.gradient {
 }
 
 .FAQ__descr {
@@ -42,6 +37,8 @@
     border-radius: 20px;
     margin: 0;
     background-color: #fff!important;
+    position: relative;
+    z-index: 1;
 }
 
 .question{
@@ -61,6 +58,7 @@
     font-weight: 500;
     font-size: 18px;
     line-height: 140%;
+    padding: 0 73px 38px 83px;
 }
 
 .question:before {
@@ -71,9 +69,9 @@
     background-position: center;
     background-repeat: no-repeat;
     left: 40px;
-    /*top: 35px;*/
     height: 27px;
     width: 14px;
+    transition: 0.3s transform ease;
 }
 
 /*вид текста label при активном переключателе */
@@ -87,31 +85,9 @@
 }
 
 /* когда чекбокс активен показываем блоки с содержанием  */
-.hide:checked + label + div {
-    display: block;
-    padding: 20px 73px 38px 83px;
-    /*анимация при появлении */
-    -webkit-animation:fade ease-in 0.5s;
-    -moz-animation:fade ease-in 0.5s;
-    animation:fade ease-in 0.5s;
-}
-/* анимация при появлении скрытых блоков */
-@-moz-keyframes fade {
-    from { opacity: 0; }
-    to { opacity: 1 }
-}
-@-webkit-keyframes fade {
-    from { opacity: 0; }
-    to { opacity: 1 }
-}
-@keyframes fade {
-    from { opacity: 0; }
-    to { opacity: 1 }
-}
-
 .hide:checked + label:before {
     content: url("../../img/FAQ/arrow-down.svg");
     left: 37px;
-    /*top: 42px;*/
+    top: 42px;
 }
 

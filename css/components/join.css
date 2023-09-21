@@ -3,17 +3,11 @@
     margin-bottom: -2px;
 }
 
-.wrapper {
-}
-
 .wrapper-join {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.join__left {
-    /*margin-top: -138px;*/
+    position: relative;
 }
 
 .join__title {
@@ -42,5 +36,4 @@
 
 .join__right {
     padding-right: 55px;
-    /*z-index: 4;*/
 }

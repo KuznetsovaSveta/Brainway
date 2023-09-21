@@ -1,24 +1,25 @@
 .contact {
     background: #F8F8F8;
     padding: 119px 0;
+    overflow: hidden;
 }
 
 .wrapper-contact {
     display: flex;
     justify-content: space-between;
     gap: 130px;
+    position: relative;
 }
-
-.contact__left {
+.contact__left,
+.contact__right{
+    z-index: 1;
 }
-
 .contact__left-title {
     font-size: 40px;
     margin-bottom: 50px;
 }
 
 .contact__form {
-    display: flex;
     flex-direction: column;
     width: 100%;
     display: inline-block;
@@ -36,10 +37,16 @@
     font-size: 16px;
     line-height: 107.9%;
     letter-spacing: 0.03em;
-    color: rgba(0, 0, 0, 0.5);
+    color: #261911;
     outline: none;
     display: inline-block;
     width: 100%;
+}
+.contact__form-item:focus{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+}
+.contact__form-item::placeholder{
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .contact__form-item:not(:last-child){
@@ -79,9 +86,6 @@
     background: linear-gradient(90deg, #6A11CB 0%, #2575FC 100%);
 }
 
-.contact__right {
-}
-
 .contact__right-title {
     font-size: 40px;
     margin-bottom: 50px;
@@ -103,6 +107,8 @@
     border-radius: 10px;
     width: 100%;
     max-width: 270px;
+    cursor: pointer;
+    z-index: 1;
 }
 
 .contact__right-country {
@@ -146,7 +152,6 @@
     position: relative;
 }
 
-/*TODO:выровнять иконки*/
 .contact__right-tel:before{
     content: "";
     position: absolute;

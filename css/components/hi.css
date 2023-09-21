@@ -1,19 +1,11 @@
 .hi {
     padding: 50px 0;
 }
-
-.wrapper-hi {
-
+.hi-wrapper{
+    position: relative;
 }
-
 .hi__title {
     margin-bottom: 20px;
-}
-
-.title {
-}
-
-.gradient {
 }
 
 .hi__text {
