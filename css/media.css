@@ -421,7 +421,7 @@
 
     /*process*/
     .process{
-        padding: 80px 0 120px 0;
+        padding: 80px 0;
     }
 
     .process__title{
@@ -486,7 +486,7 @@
         max-width: 750px;
     }
 
-    .title{
+    .title, .how__subtitle{
         font-size: 30px;
     }
 
@@ -620,6 +620,7 @@
     }
 
     .turn__img{
+        width: 100%;
         max-width: 550px;
     }
 
@@ -835,7 +836,10 @@
     }
 
 
-
+    /*process*/
+    .process, .how{
+        padding: 50px 0;
+    }
 
 
     /*-------------------------------------*/
@@ -844,17 +848,22 @@
     /*-------------------------------------*/
     /*Why us page*/
     /*why*/
+    .why{
+        padding: 60px 0;
+    }
     .why__cards {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-row-gap: 100px;
+        grid-row-gap: 60px;
     }
 
     .why__card-text{
         max-width: none;
     }
 
-
+    .FAQ{
+        padding: 60px 0;
+    }
     /*-------------------------------------*/
     /*-------------------------------------*/
     /*-------------------------------------*/
@@ -889,15 +898,13 @@
 
 
 @media screen and (max-width: 760px) {
-    .bg{
-        /*display: none;*/
-    }
     .wrapper{
         max-width: 520px;
     }
 
-    .title{
+    .title, .how__subtitle{
         font-size: 25px;
+        margin-bottom: 40px;
     }
 
     /*solution*/
@@ -905,10 +912,6 @@
         font-size: 16px;
         margin-bottom: 40px;
         max-width: none;
-    }
-
-    .solutions-card-img{
-
     }
 
     .solution__card-title{
@@ -945,7 +948,9 @@
     .team{
         grid-template-columns: repeat(3, 1fr);
     }
-
+    .join__right {
+        max-width: 260px;
+    }
 
     /*-------------------------------------*/
     /*-------------------------------------*/
@@ -961,14 +966,42 @@
 
 
 
-
+@media screen and (max-width: 600px) {
+    .popup__content{
+        max-width: 90%;
+        max-height: 90%;
+        padding: 24px;
+    }
+    .popup__title{
+        margin-bottom: 8px;
+    }
+    .popup__descr{
+        margin-bottom: 12px;
+    }
+    .popup__form-item{
+        height: 36px;
+    }
+    .popup__form-item:not(:last-child) {
+        margin-bottom: 12px;
+    }
+    .popup__form-label{
+        margin-bottom: 12px;
+    }
+    .popup__form-textarea{
+        height: 80px;
+    }
+    .thank__descr{
+        font-size: 16px;
+    }
+}
 
 
 
 
 @media screen and (max-width: 530px) {
     .wrapper{
-        max-width: 280px;
+        max-width: 100%;
+        padding: 0 15px;
     }
 
     .title{
@@ -1016,7 +1049,7 @@
 
     /*functional*/
     .wrapper-functional {
-        padding: 35px 0 45px 0;
+        padding: 35px 15px 45px 15px;
     }
 
     .footer__title{
@@ -1261,23 +1294,27 @@
         margin-bottom: 50px;
     }
 
+    .FAQ__block + br{
+        display: none;
+    }
     .question{
         font-size: 13px;
         padding: 13px 32px;
     }
+    .answer{
+        font-size: 13px;
+        padding: 0 32px 13px 32px;
+    }
 
     .question:before {
         content: url("../img/FAQ/arrow-right-mobile.svg");
-        left: 20px;
+        left: 16px;
     }
 
     .hide:checked + label:before {
         content: url("../img/FAQ/arrow-down-mobile.svg");
-        left: 37px;
-    }
-
-    .answer{
-        font-size: 13px;
+        top: unset;
+        left: 12px;
     }
 
     /*-------------------------------------*/
