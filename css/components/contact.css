@@ -56,6 +56,7 @@
 .contact__form-textarea{
     height: 138px;
     padding-top: 25px;
+    resize: none;
 }
 
 .contact__form-label {
